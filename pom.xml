@@ -96,20 +96,12 @@
                 tools for your project, such as Arquillian for testing) and the jboss-javaee-7.0-with-hibernate
                 stack you can read this as the JBoss stack of the Java EE 7 APIs, with extras
                 from the Hibernate family of projects) -->
+            
             <dependency>
-                <groupId>org.wildfly.bom</groupId>
-                <artifactId>jboss-javaee-7.0-with-tools</artifactId>
-                <version>${version.jboss.bom}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.wildfly.bom</groupId>
-                <artifactId>jboss-javaee-7.0-with-hibernate</artifactId>
-                <version>${version.jboss.bom}</version>
-                <type>pom</type>
-                <scope>import</scope>
+                <groupId>javax</groupId>
+                <artifactId>javaee-api</artifactId>
+                <version>7.0</version>
+                <scope>provided</scope>
             </dependency>
 
         </dependencies>
