@@ -5621,7 +5621,8 @@ body {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center; 
+  background-color: #ffffff;}
   .login-body .login-content .night-switch {
     position: absolute;
     right: 20px;
@@ -5689,7 +5690,9 @@ body {
         -ms-flex-align: center;
         align-items: center; }
         .login-body .login-content .login-panel .login-panel-content .logo img {
-          width: 80px; }
+/*          width: 80px; */
+        width: 110%;
+        }
       .login-body .login-content .login-panel .login-panel-content h1 {
         font-size: 42px;
         font-weight: 100;
