@@ -23,6 +23,12 @@
          can find it in the source at ear/src/main/application/META-INF/asuntosinternos-ds.xml -->
     <jta-data-source>java:jboss/datasources/asuntosinternosDS</jta-data-source>
     <class>ec.bomberosquito.asuntosinternos.entidades.NewEntity</class>
+    <class>ec.bomberosquito.asuntosinternos.entidades.Personas</class>
+    <class>ec.bomberosquito.asuntosinternos.entidades.Eventos</class>
+    <class>ec.bomberosquito.asuntosinternos.entidades.Documentos</class>
+    <class>ec.bomberosquito.asuntosinternos.entidades.Causas</class>
+    <class>ec.bomberosquito.asuntosinternos.entidades.Casos</class>
+    <class>ec.bomberosquito.asuntosinternos.entidades.Usuarios</class>
     <properties>
       <!-- Properties for Hibernate -->
       <property name="hibernate.hbm2ddl.auto" value="create-drop"/>
