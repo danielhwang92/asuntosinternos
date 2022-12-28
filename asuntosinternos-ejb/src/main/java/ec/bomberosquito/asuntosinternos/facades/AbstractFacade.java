@@ -84,7 +84,7 @@ public abstract class AbstractFacade<T> {
         return ((Long) q.getSingleResult()).intValue();
     }
     
-    public List<T> encontarParametros(Map parametros) throws ConsultarException {
+    public List<T> encontrarParametros(Map parametros) throws ConsultarException {
         try {
             Iterator it = parametros.entrySet().iterator();
             String where = "";
